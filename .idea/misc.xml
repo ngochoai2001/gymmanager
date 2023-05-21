@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/drawable-v24/edittext_line.xml" value="0.124" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/drawable/et_layou.xml" value="0.124" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/action_bar_layout.xml" value="0.10989583333333333" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/activity_admin.xml" value="0.11302083333333333" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/activity_admin_login.xml" value="0.4" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/activity_information.xml" value="0.264" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/activity_maps.xml" value="0.1421875" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/activity_vip_register.xml" value="0.25416666666666665" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/app_bar_main.xml" value="0.26842105263157895" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/content_main.xml" value="0.1328125" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/dialog_add_exercise.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/dialog_add_food.xml" value="0.264" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/dialog_edit_food.xml" value="0.11875" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/fragment_blog_detail.xml" value="0.1" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/fragment_exercise.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/fragment_exercise_detail.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/fragment_exercise_list.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/fragment_listfood.xml" value="0.11302083333333333" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/fragment_meal.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/fragment_meal_detail.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/fragment_statistic.xml" value="0.4" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/fragment_workout_exercise.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/item_expandable_listview_child.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/item_list_blog.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/item_list_exercise.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/item_list_food.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/item_list_workout.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/item_mead_details.xml" value="0.11510416666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/item_statistic.xml" value="0.11302083333333333" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/nav_header_main.xml" value="0.4" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/layout/test.xml" value="0.14166666666666666" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/menu/activity_main_drawer.xml" value="0.15260416666666668" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/menu/main.xml" value="0.15260416666666668" />
+        <entry key="..\:/CodeRepo/AndroidPrj/GymManager/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.123" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

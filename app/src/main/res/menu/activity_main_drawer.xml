@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/card"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/house"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_workout"
+            android:icon="@drawable/plan"
+            android:title="Workout" />
+        <item
+            android:id="@+id/nav_meal"
+            android:icon="@drawable/name_food_24"
+            android:title="Meal" />
+        <item
+            android:id="@+id/nav_exercise"
+            android:icon="@drawable/excer"
+            android:title="Exercise" />
+        <item
+            android:id="@+id/nav_statistic"
+            android:icon="@drawable/analytics"
+            android:title="Statistic" />
+
+    </group>
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@drawable/nearby"
+        android:title="Gym nearby" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/back_left"
+        android:title="Log out" />
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_group"
+                android:icon="@drawable/information"
+                android:title="GymManger" />
+        </menu>
+    </item>
+
+</menu>

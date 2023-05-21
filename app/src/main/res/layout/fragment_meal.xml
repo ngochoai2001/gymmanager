@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@color/colorGray2"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_back_left"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/back_left" />
+
+            <TextView
+                android:id="@+id/tv_date"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+
+
+                android:textColor="@color/colorGreen"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/iv_back_right"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_weight="0.5"
+                android:src="@drawable/back_right" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_breakfast"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/iv_breakfast"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="0.25"
+                android:src="@drawable/breakfast" />
+
+            <TextView
+                android:id="@+id/tv_breakfast"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Breakfast"
+
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_alignParentRight="true"
+                android:id="@+id/tv_total_breakfast"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_lunch"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@color/colorGray"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/iv_lunch"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="0.25"
+                android:src="@drawable/lunch" />
+
+            <TextView
+                android:id="@+id/tv_lunch"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lunch"
+                android:textColor="@color/colorBlack"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_total_lunch"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentRight="true"
+
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_dinner"
+            android:layout_width="match_parent"
+
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/iv_dinner"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="0.25"
+                android:src="@drawable/dinner" />
+
+            <TextView
+                android:id="@+id/tv_dinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Dinner"
+                android:textColor="@color/colorBlack"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_total_dinner"
+                android:layout_alignParentRight="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_snack"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@color/colorGray"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/iv_snack"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="0.25"
+                android:src="@drawable/snack" />
+
+            <TextView
+                android:id="@+id/tv_snack"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Snack"
+                android:textColor="@color/colorBlack"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_total_snack"
+                android:layout_alignParentRight="true"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_listfood"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/iv_list_food"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:src="@drawable/menu" />
+
+            <TextView
+                android:id="@+id/tv_list_food"
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Listfood"
+                android:textColor="@color/colorBlack"
+
+                android:textSize="20sp" />
+
+            <TextView
+
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.08"
+            android:background="@color/colorGray3"
+
+            android:gravity="bottom"
+            android:paddingBottom="5dp"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DAY FOOD TOTALS : "
+                android:textColor="@color/colorOre"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calories : "
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/tv_calories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="@color/colorGray"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Protein   :  "
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_protein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carbs     : "
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_cab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="@color/colorGray"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fat          : "
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_fat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

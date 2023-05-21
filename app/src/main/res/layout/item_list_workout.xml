@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingBottom="10dp"
+    android:background="@color/colorGray3"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+
+        android:id="@+id/iv_workout_image"
+        android:layout_width="160dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:textColor="@color/colorGreen1"
+        android:text="s"
+        android:textStyle="bold"
+        android:id="@+id/tv_workout_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:maxLines="3"
+        android:textSize="22sp" />
+
+    <TextView
+
+        android:id="@+id/tv_workout_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/clock_1" />
+
+</LinearLayout>

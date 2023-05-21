@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/background_login_2" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_layout"
+            android:drawableLeft="@drawable/card"
+            android:drawableRight="@drawable/icon_login"
+            android:gravity="center_horizontal"
+            android:text="Comfirm your information"
+            android:textColor="@color/colorGreen"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/layout_snack"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_layout"
+                android:drawableLeft="@drawable/weit"
+                android:gravity="center"
+                android:text="Weight(kg):"
+                android:textColor="@color/colorGreen"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edt_init_weight"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_layout"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="@color/colorOre"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/layout_snack"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_layout"
+                android:drawableLeft="@drawable/hei"
+                android:gravity="center"
+                android:text="Height(cm):"
+                android:textColor="@color/colorGreen"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edt_init_height"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_layout"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="@color/colorOre"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/layout_snack"
+            android:gravity="center_vertical">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_layout"
+                android:drawableLeft="@drawable/age"
+                android:gravity="center"
+                android:text="Age :"
+                android:textColor="@color/colorGreen"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/edt_init_age"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_layout"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="@color/colorOre"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/layout_snack"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_weight="1.45"
+                android:background="@drawable/rounded_layout"
+                android:drawableLeft="@drawable/gender"
+                android:gravity="center"
+                android:text="Gender :"
+                android:textColor="@color/colorGreen"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/rg_init_gender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:textSize="16sp">
+
+                <RadioButton
+                    android:id="@+id/rb_init_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_layout"
+                    android:checked="true"
+                    android:text="Male  "
+                    android:textColor="@color/colorOre"
+                    android:textSize="16sp" />
+
+                <RadioButton
+                    android:id="@+id/rb_init_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/rounded_layout"
+                    android:text="Female "
+                    android:textColor="@color/colorOre"
+                    android:textSize="16sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_init_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button"
+                android:text="Save"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "631671880270",
+    "firebase_url": "https://gymmanager-8b42b-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "gymmanager-8b42b",
+    "storage_bucket": "gymmanager-8b42b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631671880270:android:e27288bead4d651a0fa11f",
+        "android_client_info": {
+          "package_name": "com.asignment.gymmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631671880270-tql9s8c5ov4ov8svorse826dmua92gut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asignment.gymmanager",
+            "certificate_hash": "4b8e4248329b4bc47ec55d13f273e16bbc9fd558"
+          }
+        },
+        {
+          "client_id": "631671880270-qlu6n264aghf6p7h37p0284sdhjimk66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEl60nniYbVhbNPZYbbOx5JKnkKsPB-bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631671880270-f4071cong3h26kg2v4n0eb3u65s95na6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_layout"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:src="@drawable/string_food" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingTop="5dp"
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_horizontal"
+                android:text="Enter information new food"
+                android:textColor="@color/colorOre"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_add_image"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:paddingRight="50dp">
+
+            <ImageView
+                android:id="@+id/iv_dialog_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cam_64" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+
+                android:text="Add image food"
+                android:textColor="@color/colorGreen1"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/et_add_food_name"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext_add_food"
+                android:drawableLeft="@drawable/name_food_24"
+                android:gravity="center"
+                android:hint="Name "
+                android:paddingLeft="6dp"
+                android:textColorHint="#5ba35b" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/et_add_food_unit"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext_add_food"
+                android:drawableLeft="@drawable/apple"
+                android:gravity="center"
+                android:hint="Unit"
+                android:paddingLeft="6dp"
+                android:textColorHint="#5ba35b" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/et_add_food_count"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/edittext_add_food"
+                android:drawableLeft="@drawable/count"
+                android:gravity="center"
+                android:hint="Count"
+                android:paddingLeft="5dp"
+                android:textColorHint="#5ba35b" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/et_add_food_calo"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/search"
+                android:drawableLeft="@drawable/calo"
+                android:gravity="center"
+                android:hint="Calories"
+                android:paddingLeft="6dp"
+                android:textColorHint="#5ba35b" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/et_add_food_protein"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/search"
+                android:drawableLeft="@drawable/protein"
+                android:gravity="center"
+                android:hint="Protein"
+                android:paddingLeft="6dp"
+                android:textColorHint="#5ba35b" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/et_add_food_fat"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/search"
+                android:drawableLeft="@drawable/fat"
+                android:gravity="center"
+                android:hint="Fat"
+                android:paddingLeft="5dp"
+                android:textColorHint="#5ba35b" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/et_add_food_carb"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/search"
+                android:drawableLeft="@drawable/carb"
+                android:gravity="center"
+                android:hint="Carb"
+                android:paddingLeft="5dp"
+                android:textColorHint="#5ba35b" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="5dp">
+
+        <Button
+
+            android:id="@+id/bt_dialog_add_food_add_food"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:background="@drawable/button"
+            android:text="Add"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_dialog_add_food_cancel_food"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button"
+            android:text="Cancel"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/tv_expandable_list_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGray"
+        android:drawableLeft="@drawable/settings_1"
+
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+    <TextView
+
+        android:id="@+id/tv_expandable_list_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/time"
+        android:paddingTop="5dp"
+
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_expandable_list_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGray"
+        android:drawableLeft="@drawable/idea_24"
+        android:paddingTop="5dp"
+
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+    <TextView
+
+        android:id="@+id/tv_expandable_list_kalo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/apple"
+        android:paddingTop="5dp"
+
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+</LinearLayout>
