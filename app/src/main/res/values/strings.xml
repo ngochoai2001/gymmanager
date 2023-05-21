@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GymManager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">902240784187054</string>
+    <string name="fb_login_protocol_scheme">fb343175249432062</string>
+    <string name="facebook_client_token">bd6ea86d3ff71d675f85da7b34539a7d</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
